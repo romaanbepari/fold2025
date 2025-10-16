@@ -52,4 +52,29 @@ p{
         border:1px solid red;
     }
 
+    
+}
+.blog{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+
+    padding:64px 0;
+
+    .wrapper{
+        background-color: red;
+        padding:10px;
+    }
+
+    img{
+         max-width:400px;
+        border-radius: 20px;
+
+    }
+
+    p{
+        max-width: 400px;
+        font-size: 18px;
+    }
 }
